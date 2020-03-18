@@ -6,7 +6,7 @@ end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
-  my_hash = {}
+  my_hash = {:letter }
   
 end
 
