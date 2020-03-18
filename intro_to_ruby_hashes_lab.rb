@@ -7,12 +7,12 @@ end
 def my_hash
   # return a valid hash with any key/value pair of your choice
   my_hash = { a: => "A", b: => "B"}
-  my_hash[a]
+  my_hash[:a]
 end
 
 def pioneer
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
-  pioneer_hash = { :name => "Grace Hopper"}
+  pioneer_hash = { name: => "Grace Hopper"}
   pioneer_hash[:name]
 end
 
