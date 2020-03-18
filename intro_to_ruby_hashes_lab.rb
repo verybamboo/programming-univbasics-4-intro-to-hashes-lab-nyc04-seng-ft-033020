@@ -22,10 +22,9 @@ def id_generator
   id_generator
 end
 
-def my_hash_creator(key, value)
+def my_hash_creator(key, value, new_hash = {})
   # return a hash that includes the key and value parameters passed into this method
   new_hash = {}
-  new_hash[:a] = 'a'
   new_hash
 end
 
