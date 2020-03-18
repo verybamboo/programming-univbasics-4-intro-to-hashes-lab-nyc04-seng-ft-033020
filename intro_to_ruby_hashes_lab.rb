@@ -24,7 +24,7 @@ end
 
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
-  
+  new_hash = {value: "1", value2: "2"}
 end
 
 def read_from_hash(hash, key)
